@@ -5,13 +5,13 @@ echo "Hello World!";
 //Testing facebook graph access
 
 //i dont think i need this section
-/*
+
 $fb = new Facebook\Facebook([
-  'app_id' => '{app-id}',
-  'app_secret' => '{app-secret}',
+  'app_id' => '111385752712817',
+  'app_secret' => 'b9e480d50582ea442b2308af63a50f15',
   'default_graph_version' => 'v2.2',
   ]);
-*/
+
 
 try {
   // Returns a `Facebook\FacebookResponse` object
