@@ -1,3 +1,27 @@
+<body>
+
+  
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '111385752712817',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();   
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+</script>
+
 <?php
 
 echo "Hello World!";
@@ -5,7 +29,7 @@ echo "Hello World!";
 //Testing facebook graph access
 
 //i dont think i need this section
-
+/*/
 $fb = new Facebook\Facebook([
   'app_id' => '111385752712817',
   'app_secret' => 'b9e480d50582ea442b2308af63a50f15',
@@ -38,7 +62,7 @@ var_dump($helper->getSignedRequest());
 
 echo '<h3>Access Token</h3>';
 var_dump($accessToken->getValue());
-
+*/
 /*
 try {
   // Returns a `Facebook\FacebookResponse` object
@@ -50,12 +74,13 @@ try {
   echo 'Facebook SDK returned an error: ' . $e->getMessage();
   exit;
 }
-
+*/
 $user = $response->getGraphUser();
 
 echo 'Name: ' . $user['name'];
 // OR
 // echo 'Name: ' . $user->getName();
-*/
+
 
 ?>
+</body>
