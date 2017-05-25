@@ -1,6 +1,6 @@
 {
   "require" : {
-    "facebook/graph-sdk"
+    "facebook/graph-sdk" : "*"
     }
     }
     
