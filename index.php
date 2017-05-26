@@ -2,6 +2,7 @@
 
 
 <?php
+  /*
   $fb = new \Facebook\Facebook([
   'app_id' => '{app-id}',
   'app_secret' => '{app-secret}',
@@ -32,7 +33,7 @@ try {
 $me = $response->getGraphUser();
 echo 'Logged in as ' . $me->getName();
   
-/*
+*/
 echo "Hello World!";
 
 //Testing facebook graph access
@@ -89,6 +90,6 @@ echo 'Name: ' . $user['name'];
 // OR
 // echo 'Name: ' . $user->getName();
 
-*/
+
 ?>
 </body>
