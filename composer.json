@@ -33,10 +33,5 @@
         "psr-4": {
             "Facebook\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.x-dev"
-        }
     }
 }
